@@ -11,7 +11,7 @@ pipeline {
                 input 'Proceed or Abort'
             }
         }
-     stage('trigger downstream job') {
+     stage('trigger downstream jobs') {
             steps {
                build 'jesting'
             }
