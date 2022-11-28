@@ -6,9 +6,9 @@ pipeline {
         git branch: 'main', url: 'https://github.com/chingari5268/demowebhook.git'
       }
     }
-     stage('Hello') {
+     stage('trigger downstream job') {
             steps {
-                echo 'Hello World chethan monday!'
+               build 'jesting'
             }
         }
     }
