@@ -13,7 +13,7 @@ pipeline {
     stages {
         stage ("checkout from GIT") {
             steps {
-                git branch: 'master' , url:'https://github.com/chingari5268/terraformcicd.git'
+                git branch: 'main', url: 'https://github.com/chingari5268/demowebhook.git'
             }
         }
         stage ("terraform init") {
