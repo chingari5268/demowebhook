@@ -13,7 +13,7 @@ pipeline {
         }
      stage('trigger downstream job') {
             steps {
-               build 'jesting'
+              echo
             }
         }
     }
