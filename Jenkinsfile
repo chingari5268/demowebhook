@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Manual approve') {
             steps {
-                input 'Proceed or Abort'
+                'Proceed or Abort'
             }
         }
      stage('trigger downstream job') {
